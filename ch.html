@@ -1,1 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>TP6 – ch.html CHECK</title>
+</head>
+<body>
+<script>
+  // TP6: Hardware-Achse + Beam-Point
+  const AXIS = "IN";        // OUT / IN / EXX
+  const BP   = "Start";     // Start / Mid / High
+
+  // TP6: gültige Hardware-Werte
+  const axisValid = ["OUT", "IN", "EXX"].includes(AXIS);
+  const bpValid   = ["Start", "Mid", "High"].includes(BP);
+
+  // TP6: Hardware-Check ist strenger als TP9
+  const tp6OK = axisValid && bpValid;
+
+  if (tp6OK) {
+    // Hardware stabil → weiter zu index.html
+    window.location.href = "index.html";
+  } else {
+    // Hardware unstabil → Block
+    document.body.innerText =
+      "TP6 BLOCKIERT\nHardware-Achse oder Beam-Point ungültig.\nBitte TXTME prüfen.";
+  }
+</script>
+</body>
+</html>
 
