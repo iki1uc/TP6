@@ -1,145 +1,105 @@
-Unten bekommst du ein vollständiges, strukturiertes, MARKT‑3‑fähiges README für dein Modul iki1uc/TP6 — inklusive der geforderten 3‑Ligkeit und ohne Auto‑Handel.
+# TP6 – ANKER-KERN MODUL  
+System-ID: IKI1UC-TP6-SYSID-AX12-ORBIT3-V1.0
 
-📄 README.md — TP6 (MARKT‑3‑Version)
-TP6 — Tri‑Layer‑Modul der Public‑Ebene (3‑Ligkeit)
-TP6 ist ein Public‑Tri‑Layer‑Modul innerhalb der iki1uc‑Struktur.
-Es dient der Darstellung von drei unabhängigen, neutralen Public‑Schichten (Layer 1, Layer 2, Layer 3), die gemeinsam die 3‑Ligkeit bilden.
-TP6 ist vollständig neutral, konfliktfrei und MARKT‑3‑kompatibel.
+TP6 ist das zentrale Stabilitätsmodul des IKI1UC-Systems.  
+Es verbindet die 12-Achsen-Matrix mit den Orbit-Funktionen und dient als Kernpunkt für Cache- und X4-Mechaniken.
 
-TP6 arbeitet ausschließlich in der Public‑Ebene und trägt keine System‑Last.
+---
 
-🟦 Öffentlicher Zweck
-TP6 stellt die Public‑Tri‑Layer‑Schicht bereit:
+## 📌 Funktionen von TP6
+TP6 übernimmt folgende Kernaufgaben:
 
-Layer 1 — Ausgangsschicht
+- Stabilisierung der Achsen XI und X4  
+- Verbindung zwischen Input (IX) und Output (OI / ALLOUT)  
+- Regulierung der Orbit-MID Ebene  
+- Kontrolle der Cache-POST Zustände  
+- Aktivierung der Multi-Vektor-Skalierung  
 
-Layer 2 — relative Gegenschicht
+---
 
-Layer 3 — neutrale Dritt‑Schicht (3‑Ligkeit)
+## 📁 Eingebundene CSV-Dateien
 
-TP6 zeigt nur öffentliche Inhalte — keine Engine‑Interna, keine System‑Mechanik.
+### 1. tp-achsen-12.csv  
+Definiert alle 12 Achsen des Systems:
+- IX, XI, X4  
+- IO, AIR, ALLIN  
+- OI, AIV, ALLOUT  
+- ORBIT-IN, ORBIT-MID, ORBIT-OUT  
 
-🟦 3‑Ligkeit (Pflicht‑Merkmal)
-Die 3‑Ligkeit ist das Kernmerkmal von TP6:
+### 2. tp-orbit-3.csv  
+Definiert die Orbit-Ebenen:
+- Eingang  
+- Stabil  
+- Ausgang  
 
-TP6 ist immer dreischichtig
+### 3. tp-pipeline-12.csv  
+Ordnet jede Achse einer Pipeline-Stufe zu.
 
-TP6 ist immer neutral
+### 4. tp-algorithmus-12.csv  
+Definiert die algorithmischen Funktionen jeder Achse.
 
-TP6 ist immer frei
+### 5. tp-marktrolle-12.csv  
+Ordnet jeder Achse eine Marktrolle zu.
 
-TP6 ist immer korrekt, wenn jemand anderes seinen Job besser macht
+### 6. tp-cache-matrix.csv  
+Definiert die Cache-Positionen (PRE/POST) und Cache-Funktionen.
 
-TP6 ist immer stabil, wenn System‑Relativität steigt
+### 7. tp-x4-matrix.csv  
+Definiert die X4-Kompatibilität jeder Achse.
 
-Die 3‑Ligkeit bedeutet:
+---
 
-TP6 ist die dritte Schicht, die weder konkurriert noch dominiert — sondern ausgleicht.
+## 🔧 Rolle von TP6 im System
 
-🟦 MARKT‑3‑Kompatibilität
-MARKT 3 — 05.07.2026 — 13:00 bis 16:00 Uhr
+TP6 ist der **Anker-Kern** des gesamten IKI1UC-Universums.  
+Es stabilisiert:
 
-TP6 erfüllt alle Kriterien für MARKT‑3:
+- Multi-Vektor (X4)  
+- Orbit-MID  
+- Cache-POST  
+- Pipeline-Stufe 6  
+- Marktrolle „Stabil-Markt“  
 
-neutral
+TP6 ist notwendig, damit:
 
-öffentlich
+- X4 frei skalieren kann  
+- Cache korrekt arbeitet  
+- Orbit stabil bleibt  
+- Pipeline 6 vollständig nutzbar ist  
 
-frei beweglich (anzeigend)
+---
 
-konfliktfrei
+## 📌 Status
 
-0‑Last
+TP6 ist **AKTIV** und vollständig eingebunden.  
+Alle relevanten CSV-Dateien sind vorhanden.
 
-Tri‑Layer‑fähig
+---
 
-3‑Ligkeits‑fähig
+## 🔗 Weiterführende Module
 
-Namens‑stabil
+- **[TP3](ca://s?q=TP3_Info)** – Norm-Regulatorik  
+- **[TP4](ca://s?q=TP4_Info)** – Pipeline-Synthese  
+- **[TP9](ca://s?q=TP9_Info)** – Normmodul  
+- **[TP12](ca://s?q=TP12_Info)** – Orbit-Meta  
 
-Nach Abschluss (17:00 Uhr):
+---
 
-Code
-TMP_MARKT3_TP6 = abgeschlossen
-Damit ist TP6 offiziell MARKT‑3‑fähig und bleibt gültig, bis eine neue Aufstellung gesetzt wird.
+## 🧩 Kompatibilität
 
-🟦 7SINN‑Relevanz
-TP6 erfüllt alle 7SINN‑Kriterien:
+TP6 ist kompatibel mit:
 
-Verständlichkeit – klare Tri‑Layer‑Ebene
+- 12-Achsen-Matrix  
+- Orbit-3  
+- Cache-Matrix  
+- X4-Matrix  
+- Pipeline-12  
+- Marktrolle-12  
 
-Orientierung – eindeutige TP6‑Public‑Ebene
+---
 
-Nutzen – Ausgleich zwischen Schichten
+## 📜 Version
 
-Struktur – Layer 1/2/3
+Version: **1.0**  
+System-ID: **IKI1UC-TP6-SYSID-AX12-ORBIT3-V1.0**
 
-Neutralität – keine Engine‑Last
-
-Integrität – Public‑Logik bleibt stabil
-
-Nachvollziehbarkeit – klare Darstellung
-
-🟦 Modul‑Struktur
-TP6 besteht aus folgenden Public‑Komponenten:
-
-core/ – Tri‑Layer‑Grundfunktionen
-
-tp6.html – Tri‑Layer‑Darstellung
-
-id.html – Ident‑Ebene
-
-index.html – Public‑Frontend
-
-Diese Struktur zeigt:
-TP6 ist ein vollwertiges Public‑Tri‑Layer‑Modul, nicht nur ein einfacher Ordner.
-
-🟦 Funktions‑Beschreibung
-TP6 kann:
-
-Tri‑Layer anzeigen
-
-3‑Ligkeit darstellen
-
-TP6‑Objekte tragen
-
-Narrativ‑Wechsel sichtbar machen
-
-TP6 erzeugt keine Konflikte und keine System‑Abhängigkeiten.
-
-🟦 Namens‑Integrität (Unveränderbarkeit)
-Der Name TP6 ist vollständig im Reinen:
-
-kurz
-
-klar
-
-neutral
-
-Tri‑Layer‑Achse
-
-3‑Ligkeits‑Achse
-
-Public‑Achse
-
-Kein anderer Name könnte alle Achsen gleichzeitig tragen.
-
-Darum gilt:
-
-TP6 kann keinen neuen oder alternativen Namen erhalten.
-Der bestehende Name trägt den gesamten Sachverhalt.
-
-🟦 Nüchterne Zusammenfassung
-TP6 ist MARKT‑3‑fähig
-
-TP6 ist neutral & konfliktfrei
-
-TP6 ist ein vollwertiges Public‑Tri‑Layer‑Modul
-
-TP6 trägt die 3‑Ligkeit
-
-TP6 ist Namens‑stabil
-
-TP6 README ist gültig und zukunftsfähig
-
-TP6 bleibt stabil, wenn System‑Relativität steigt (neue Position, neues Narrativ)
